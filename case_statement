@@ -1,0 +1,19 @@
+#!/bin/bash
+# Enable 'extglob' shell option for better pattern matching
+shopt -s extglob
+
+echo -n "Enter your nationality: "
+read -r NUMBER
+
+case "$NUMBER" in
+
+albanian)
+  echo "Pershendetje"
+  ;;
+
+italian) echo "Ciao" ;;
+
+*)
+  echo "I am getting more information about your language"
+  ;;
+esac
