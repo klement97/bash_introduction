@@ -1,0 +1,24 @@
+#!/bin/bash
+
+FIRST_ARGUMENT=$1
+
+# Checking if there are any actions provided by its length.
+if [ "${#FIRST_ARGUMENT}" -eq 0 ]; then
+  echo "Please provide at least one argument"
+fi
+
+# Use all actions and echo them back.
+echo "Arguments provided: $*"
+echo "The count of the arguments: $#"
+
+# Loop around the arguments provided.
+
+# $* gives a single string
+for ARG in "$*"; do
+  echo "ARGS: $ARG"
+done
+
+# $@ gives a vector
+for ARG in "$@"; do
+  echo "ARGV: $ARG"
+done
