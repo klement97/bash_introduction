@@ -1,3 +1,4 @@
+#!/bin/bash
 counter=2
 is_prime=1
 

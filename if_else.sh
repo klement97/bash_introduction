@@ -1,3 +1,4 @@
+#!/bin/bash
 VALUE=10
 
 if [ "$VALUE" -lt 0 ]; then

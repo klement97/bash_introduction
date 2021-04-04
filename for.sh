@@ -1,3 +1,4 @@
+#!/bin/bash
 COUNTER=0
 
 for (( ;; ))

@@ -1,3 +1,4 @@
+#!/bin/bash
 CITY=New_York
 NAME="John Doe"
 AGE=26
